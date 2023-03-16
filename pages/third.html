@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="../style/third.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="navigation" class="container">
+      <div class="nav-left">
+        <img
+          class="nav-left-img"
+          src="../images/main-logo-b-main-logo-e-main-logo-h-main-logo-r-main-logo-u-main-logo-z-main-logo.svg"
+          alt="Logo"
+        />
+      </div>
+      <div class="nav-right">
+        <ul class="nav-ul">
+          <li class="nav-li"><a class="nav-a my-font" href="#">Services</a></li>
+          <li class="nav-li"><a class="nav-a my-font" href="#">About </a></li>
+          <li class="nav-li"><a class="nav-a my-font" href="#">Contacts</a></li>
+          <li class="nav-li">
+            <a class="nav-a my-font" href="../index.html" target="_blank"
+              >Register</a
+            >
+          </li>
+          <li class="nav-li">
+            <a class="nav-a my-font" href="#">Open an account</a>
+          </li>
+          <li class="nav-li"><a class="nav-a my-font" href="#">EN</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main id="main-content" class="mini-container">
+      <div class="firs-part">
+        <img
+          src="../images/main-logo-b-main-logo-e-main-logo-h-main-logo-r-main-logo-u-main-logo-z-main-logo.svg"
+          alt="Logo"
+        />
+        <h1>Welcome to ByTrend!</h1>
+        <div class="main-content-div">
+          <span class="my-font">You haven't got an account?</span>
+          <a href="../index.html" target="_blank">Register now</a>
+        </div>
+      </div>
+      <div class="email">
+        <label for="email">E-mail<span>*</span></label>
+        <input
+          required
+          class="my-font"
+          placeholder="Email address"
+          type="email"
+          id="email"
+        />
+      </div>
+      <div id="code" class="code">
+        <p>Password<span>*</span></p>
+        <input required class="my-font"   type="password" name="password" id="password">
+        <i class="bi bi-eye-slash" id="togglePassword"></i>
+       </div>
+       <div class="logon">
+        <button>Login</button>
+       </div>
+    </main>
+    <footer id="footer" class="mini-container">
+      <p class="my-font">
+        ©2023 All Rights Reserved. OutisDeveloper Technologies, Inc.
+      </p>
+    </footer>
+<script src="../js/main.js"></script>
+  </body>
+</html>

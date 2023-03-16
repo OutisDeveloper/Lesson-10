@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Second-page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="../style/second.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap"
+      rel="stylesheet"
+    />
+    
+  </head>
+  <body>
+    <nav id="navigation" class="container">
+      <div class="nav-left">
+        <img
+          class="nav-left-img"
+          src="../images/main-logo-b-main-logo-e-main-logo-h-main-logo-r-main-logo-u-main-logo-z-main-logo.svg"
+          alt="Logo"
+        />
+      </div>
+      <div class="nav-right">
+        <ul class="nav-ul">
+          <li class="nav-li"><a class="nav-a my-font" href="#">Services</a></li>
+          <li class="nav-li"><a class="nav-a my-font" href="#">About </a></li>
+          <li class="nav-li"><a class="nav-a my-font" href="#">Contacts</a></li>
+          <li class="nav-li"><a class="nav-a my-font" href="../pages/third.html" target="_blank">Log in</a></li>
+          <li class="nav-li">
+            <a class="nav-a my-font" href="#">Open an account</a>
+          </li>
+          <li class="nav-li"><a class="nav-a my-font" href="#">EN</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main id="main-content" class="mini-container">
+      <div class="firs-part">
+        <img
+          src="../images/main-logo-b-main-logo-e-main-logo-h-main-logo-r-main-logo-u-main-logo-z-main-logo.svg"
+          alt="Logo"
+        />
+        <h1>Welcome to ByTrend!</h1>
+        <div class="main-content-div">
+          <span class="my-font">Already have an account?</span>
+          <a href="../pages/third.html" target="_blank">Log in</a>
+        </div>
+      </div>
+    </main>
+    <form class="mini-container" action="#">
+      <div class="email">
+        <label for="email">E-mail<span>*</span></label>
+        <input
+          required
+          class="my-font"
+          placeholder="Email address"
+          type="email"
+          id="email"
+        />
+      </div>
+      <div class="tel">
+        <div class="od">
+          <span class="bir">Phone</span><span class="ikki">*</span>
+        </div>
+
+        <div class="od-2">
+          <div class="inside"><span class="my-font">+7</span></div>
+          <input required class="my-font" type="tel" />
+        </div>
+      </div>
+      <!-- tel-end -->
+      <div class="place">
+        <div class="country">
+          <p class="y-font">Country<span>*</span></p>
+          <select class="my-font" name="country" id="country">
+            <option class="my-font"  value="">Russia</option>
+            <option class="my-font" value="">U.S.A</option>
+            <option class="my-font" value="">China</option>
+            <option class="my-font" value="">Uzbekistan</option>
+          </select>
+        </div>
+        <div class="city">
+          <p>City<span>*</span></p>
+          <input type="text" placeholder="Name of the city" class="my-font">
+        </div>
+      </div>
+      <!-- password-start -->
+      <div id="code" class="code">
+       <p>Password<span>*</span></p>
+       <input required class="my-font"   type="password" name="password" id="password">
+       <i class="bi bi-eye-slash" id="togglePassword"></i>
+       <div class="confirm">
+        <p>Confirm password<span>*</span></p>
+       <input required class="my-font"   type="password" name="password" id="password">
+       </div>
+      </div>
+      <a class="register" href="./registered.html" target="_blank">Register</a>
+    </form>
+
+    <footer id="footer" class="mini-container">
+      <p class="my-font">
+        By signing up, you are agreeing to our
+        <span>Terms & Conditions</span> and <span>Privacy Policy</span>
+      </p>
+    </footer>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

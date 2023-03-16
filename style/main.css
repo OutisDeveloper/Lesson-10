@@ -1,0 +1,238 @@
+/* General-styles-start */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: white;
+}
+.container {
+  max-width: 1100px;
+  margin: 0px auto;
+}
+.mini-container {
+  max-width: 416px;
+  margin: 0px auto;
+}
+.my-font {
+  font-family: "Philosopher", sans-serif;
+}
+/* General-styles-end */
+
+/* Navigation-styles-start */
+#navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+}
+.nav-left-img {
+  height: 40px;
+  margin-left: 10px;
+}
+.nav-right {
+  width: 550px;
+  margin-right: 10px;
+}
+.nav-ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-a {
+  border: 1.5px solid transparent;
+  font-size: 16px;
+  border-radius: 7px;
+  padding: 3px 10px;
+  transition: 0.3s 0.1s;
+  color: black;
+}
+.nav-a:hover {
+  border: 1.5px solid #aeadad;
+  border-radius: 7px;
+}
+/* Navigation-styles-end */
+
+.firs-part {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.firs-part img {
+  height: 35px;
+  margin: 64px 0px 24px;
+}
+.firs-part h1 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.main-content-div span {
+  font-size: 16px;
+  color: #444150;
+}
+.main-content-div a {
+  font-size: 16px;
+  color: #01bab3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-left: 5px;
+  transition: 0.3s 0.1s;
+}
+.main-content-div a:hover {
+  color: #444150;
+}
+/* Part-1-start */
+.part-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.first-name,
+.last-name {
+  display: flex;
+  flex-direction: column;
+}
+.part-1-label {
+  font-size: 16px;
+  color: #444150;
+  font-weight: 600;
+  font-family: Arial, sans-serif;
+  margin: 56px 0px 8px;
+}
+.part-1-label span {
+  color: #01bab3;
+}
+input:focus {
+  outline: none;
+}
+input[type="text"] {
+  padding: 12px 0px 12px 16px;
+  background-color: white;
+  border: 1px solid #aeadad;
+  border-radius: 6px;
+  font-size: 16px;
+}
+/* Part-1-end */
+/* Part-2-start */
+.part-2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+input[type="date"] {
+  width: 100%;
+  padding: 12px 0px 12px 16px;
+  background-color: white;
+  border: 1px solid #aeadad;
+  border-radius: 6px;
+  font-size: 16px;
+}
+.part-2 label {
+  font-size: 16px;
+  color: #444150;
+  font-weight: 600;
+  font-family: Arial, sans-serif;
+  margin-bottom: 8px;
+}
+.part-2 label span {
+  color: #01bab3;
+}
+/* Part-2-end */
+/* Part-3-start */
+.gender-type {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.f-male,
+.m-male {
+  display: flex;
+  flex-direction: row;
+  height: 48px;
+  width: 200px;
+  background: #ffffff;
+  border: 1px solid #aeadad;
+  border-radius: 4px;
+  align-items: center;
+}
+input[type="radio"] {
+  margin: 0px 16px;
+  color: red;
+}
+.one,
+.two {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.two {
+  color: #01bab3;
+}
+.one {
+  color: #444150;
+}
+.gender-type {
+  margin-top: 8px;
+}
+/* Part-3-end */
+/* Part-4-start */
+.part-4 {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 0px;
+}
+.part-4 label {
+  font-display: 16px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444150;
+  margin-bottom: 8px;
+}
+.aprt-4 input {
+  width: 100%;
+}
+/* Part-4-end */
+.part-5 {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 0px;
+}
+.part-5 label {
+  font-display: 16px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444150;
+  margin-bottom: 8px;
+}
+.aprt-5 input {
+  width: 100%;
+}
+#btn {
+  border: none;
+  width: 100%;
+  height: 48px;
+  background-color: #01bab3;
+  border-radius: 5px;
+}
+#btn a {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+footer p {
+  margin: 24px 0px 72px;
+  text-align: center;
+  color: #778699;
+}
+footer span {
+  color: #01bab3;
+}
